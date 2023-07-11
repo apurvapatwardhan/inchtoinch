@@ -1,0 +1,13 @@
+.navLinkContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.navLink {
+    position: relative;
+}
+.navLinkDropdown {
+    position: absolute;
+    list-style: none;
+    top: 2rem;
+    padding: 0rem;
+}
