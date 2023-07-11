@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { navLinks } from '@/constants'
 import Link from 'next/link'
 import styles from './Navbar.module.css'
-
+//test git
 const Navbar = () => {
   const [showNavList, setShowNavList] = useState('')
   console.log(showNavList)
