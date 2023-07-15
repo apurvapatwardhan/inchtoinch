@@ -1,10 +1,10 @@
 import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Cormorant,Lora } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Lora({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
