@@ -1,0 +1,14 @@
+.head {
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+.headerTitle {
+    margin: auto;
+}
+
+.logoContainer {
+    display:flex;
+    justify-content: center;
+}
