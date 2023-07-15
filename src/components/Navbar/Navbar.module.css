@@ -6,8 +6,17 @@
     position: relative;
 }
 .navLinkDropdown {
+    padding: 4px 4px;
+    box-shadow: 1px 1px 5px 0px gray;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style-type: none;
+    margin-top: 4px;
     position: absolute;
-    list-style: none;
-    top: 2rem;
-    padding: 0rem;
+}
+
+.linkItem {
+    text-decoration: none;
+    color: black;
 }

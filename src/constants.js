@@ -1,25 +1,25 @@
 import { nanoid } from 'nanoid'
 export const navLinks = {
-    home:{
+    Home:{
         list:[{
-            label:'home', value:"/",id:nanoid()
+            label:'Home', value:"/",id:nanoid()}
+        ],
+        id:nanoid()
+    },
+    'About us': {
+        list:[{label:'Inch to inch', value:'/#inch_to_inch',id:nanoid()}, {
+            label:'Workmanship', value:'/#workmanship',id:nanoid()
         }],
         id:nanoid()
     },
-    'about us': {
-        list:[{label:'inch to inch', value:'#inch_to_inch',id:nanoid()}, {
-            label:'workmanship', value:'#workmanship',id:nanoid()
-        }],
-        id:nanoid()
-    },
-    services: {
-        list:[{label:'art', value:'/services/art'}, {
-            label:'architecture', value:'/services/architecture',id:nanoid()},
+    Services: {
+        list:[{label:'Art', value:'/services/art'}, {
+            label:'Architecture', value:'/services/architecture',id:nanoid()},
             {
-                label: 'interiors', value:'/services/interiors',id:nanoid()
+                label: 'Interiors', value:'/services/interiors',id:nanoid()
             },
             {
-                label: 'landscape', value:'/services/landscape',id:nanoid()
+                label: 'Landscape', value:'/services/landscape',id:nanoid()
             },
             {
                 label: 'Urbanscape', value:'/services/urbanscape',id:nanoid()
@@ -28,46 +28,46 @@ export const navLinks = {
                 label: 'Contracts', value:'/services/contracts',id:nanoid()
             },
             {
-                label: 'properties', value:'/services/properties',id:nanoid()
+                label: 'Properties', value:'/services/properties',id:nanoid()
             },
             {
-                label: 'research', value:'/services/research',id:nanoid()
+                label: 'Research', value:'/services/research',id:nanoid()
             }
         ],
         id:nanoid()
     },
-    more:{
+    More:{
         list: [
             {
-                label: 'awards', value:'/more/awards',id:nanoid()
+                label: 'Awards', value:'/more/awards',id:nanoid()
             },
             {
-                label: 'news', value:'/more/news',id:nanoid()
+                label: 'News', value:'/more/news',id:nanoid()
             },
             {
-                label: 'blogs', value:'/more/blogs',id:nanoid()
+                label: 'Blogs', value:'/more/blogs',id:nanoid()
             },
             {
-                label: 'events', value:'/more/events',id:nanoid()
+                label: 'Events', value:'/more/events',id:nanoid()
             },
             {
-                label: 'downloads', value:'/more/downloads',id:nanoid()
+                label: 'Downloads', value:'/more/downloads',id:nanoid()
             }
         ],
         id:nanoid()
     },
-    'connect us': {
+    'Connect us': {
         list: [
             {
-                label:'life @ inchtoinch',
+                label:'Life @ inchtoinch',
                 value:'/connect/life_at_inch', id:nanoid()
             },
             {
-                label:'have a question?',
+                label:'Have a question?',
                 value:'/connect/askQ',id:nanoid()
             },
             {
-                label:'contacts',
+                label:'Contacts',
                 value:'/connect/contacts', id:nanoid()
             }
         ],

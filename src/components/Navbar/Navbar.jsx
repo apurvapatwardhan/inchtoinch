@@ -15,7 +15,7 @@ const Navbar = () => {
           return (
             <l1 key={navLinks[navigation]['id']} className={styles.navLink}>
               <span
-                onClick={() => {
+                onMouseOver={() => {
                   setShowNavList(`${navigation}`)
                 }}
               >
@@ -26,7 +26,7 @@ const Navbar = () => {
                   {list.map((listItem) => {
                     return (
                       <li key={listItem.id}>
-                        <Link href={listItem.value}>
+                        <Link href={listItem.value} className={styles.linkItem}>
                           <span
                             onClick={(e) => {
                               setShowNavList('none')
